@@ -14,9 +14,9 @@ class SignUp extends Component {
     })
   }
     handleSubmit(e) {
-      alert('Your password is valid: ' + this.state.value)
         event.preventDefault()
     }
+
   render() {
     return (
       <div>
