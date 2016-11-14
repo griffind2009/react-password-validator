@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import SignUp from './SignUp.js';
+
 
 ReactDOM.render(
-  <App />,
+  <SignUp email={"yahoo.com"} password={"password"} confirmation={"password"}/>,
   document.getElementById('root')
 );
