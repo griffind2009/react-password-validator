@@ -4,6 +4,6 @@ import SignUp from './SignUp.js';
 
 
 ReactDOM.render(
-  <SignUp email={"yahoo.com"} password={"password"} confirmation={"password"}/>,
+  <SignUp email={""} password={""} confirmation={""}/>,
   document.getElementById('root')
 );
